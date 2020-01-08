@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>My First Page</title>
+	<title>Inputs Demo</title>
 
 </head>
 <body>
@@ -97,25 +98,53 @@
 	<form action="http://wikipedia.org" method="GET">
 		<lable>
 			Username:
-			<input name="username" type="text" plaveholder="username">
+			<input name="username" type="text" placeholder="username">
 		</lable>
 		<label>
 			Password:
-			<input type="password" plaveholder="password">
+			<input type="password" placeholder="password">
 		</label>
 
 		<lable for="ussername">Email:</lable>
-		<input id="username" type="Email" plaveholder="Email" required>
+		<input id="username" type="Email" placeholder="Email" required>
 		<label for="passord">Password:</label>
-		<input id="password" type="password" plaveholder="password">
+		<input id="password" type="password" placeholder="password">
 		
-
-		<input type="color">
-		<input type="radio">
 
 		<buttton>Submit</buttton>
 		<input type="Submit">
 	</form>
+
+
+	<!-- Inputs Demo -->
+	<form>
+		<p>Do you prefer cats or dogs</p>
+		<label for="dogs">Dogs:</label>
+		<input id="dogs" type="radio" name="petchoice" value="dogs">
+		<label for="cats">Cats:</label>
+		<input id="cats" type="radio" name="petchoice" value="cats">
+
+		<input type="color">
+		<input type="radio">
+		<input type="checkbox">
+		<input type="text">
+
+		<!-- Select tag -->
+		<p>What's your current mood?</p>
+	
+		<select name="mood">
+			<option value="happy"=>:)</option>
+			<option value="nutral">:|</option>
+			<option value="sad">:(</option>
+		</select>
+
+		<!-- Text Input -->
+		<textarea name="paragraph" rwos="10" cols="50"></textarea>
+
+		<button>Go!</button>
+	</form>
+		
+	
 </body>
 </html>
 
