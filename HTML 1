@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My First Page</title>
+
+</head>
+<body>
+	<h1>This is my first tag!!</h1>
+	<div>
+		<h2>This is another heading!</h2>
+		<p><i>Lorem Ipsum</i> is<span> <b>simply dummy text</b> </span>of the <strong>priting</strong> and typesetting industry. <em>Lorem Ipsum</em> has ben the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scambled it to make a type specimen book. </p>
+	</div>
+	<img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+	<a href=http://www.google.com>Click me to go to Gooogle</a>
+	<a href=Things%20Ive%20Learned.html>Go to <em>Things I've Learned</em></a>
+	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacinia at quis risus sed. </p>
+
+	<!-- Ordered list -->
+	<ol>
+		<li><strong>Red</strong></li>
+		<li>orange</li>
+		<li>yeloow</li>
+			<ul>
+				<li>sunflower</li>
+				<li>banana</li>
+					<ol>
+						<li>frozen banana</li>
+						<li>non-frozen banana</li>
+					</ol>
+			</ul>
+	</ol>
+
+	<ol>
+		<li><strong>Red</strong></li>
+		<li>orange</li>
+		<li>yeloow
+			<ul>
+				<li>sunflower</li>
+				<li>banana
+					<ol>
+						<li>frozen banana</li>
+						<li>non-frozen banana</li>
+					</ol>
+				</li>
+			</ul>
+		</li>
+	</ol>
+
+	<!-- Unordered list -->
+	<ul>
+		<li>Red</li>
+		<li>orange</li>
+		<li>yellow</li>
+	</ul>
+
+
+	<!-- table -->
+	<table border="1">
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Age</th>
+				<th>Breed</th>
+				<th>Image</th>
+				<th>More info</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Rusty</td>
+				<td>2</td>
+				<td>Mutt</td>
+				<td>
+					<img width="50" src="">
+				</td>
+				<td>
+					<a href=""></a>
+				</td>
+			</tr>
+			<tr>
+				<td>Wyatt</td>
+				<td>13</td>
+				<td>Golden</td>
+				<td>
+					<img width="50" src="">
+				</td>
+				<td>
+					<a href=""></a>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+
+
+	<!-- Forms -->
+	<h1>Login</h1>
+	<form action="http://wikipedia.org" method="GET">
+		<lable>
+			Username:
+			<input name="username" type="text" plaveholder="username">
+		</lable>
+		<label>
+			Password:
+			<input type="password" plaveholder="password">
+		</label>
+
+		<lable for="ussername">Email:</lable>
+		<input id="username" type="Email" plaveholder="Email" required>
+		<label for="passord">Password:</label>
+		<input id="password" type="password" plaveholder="password">
+		
+
+		<input type="color">
+		<input type="radio">
+
+		<buttton>Submit</buttton>
+		<input type="Submit">
+	</form>
+</body>
+</html>
+
