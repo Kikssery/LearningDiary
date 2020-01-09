@@ -4,6 +4,23 @@
 	<title>My First Page</title>
 	<title>Inputs Demo</title>
 
+	<!-- sytle 1 -->
+	<style type="text/css">
+		/*selector{
+			property: value;
+		}*/
+
+		h1{
+			color: purple;
+		}
+		li{
+			color: orange;
+		}
+	</style>
+
+	<!-- style 2 -->
+	<link rel="stylesheet" type="text/css" href="app.css">
+
 </head>
 <body>
 	<h1>This is my first tag!!</h1>
@@ -11,14 +28,15 @@
 		<h2>This is another heading!</h2>
 		<p><i>Lorem Ipsum</i> is<span> <b>simply dummy text</b> </span>of the <strong>priting</strong> and typesetting industry. <em>Lorem Ipsum</em> has ben the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scambled it to make a type specimen book. </p>
 	</div>
-	<img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940">
+	<img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" width="1000">
 	<a href=http://www.google.com>Click me to go to Gooogle</a>
 	<a href=Things%20Ive%20Learned.html>Go to <em>Things I've Learned</em></a>
 	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lacinia at quis risus sed. </p>
 
-	<!-- Ordered list -->
+	<div>
+		<!-- Ordered list -->
 	<ol>
-		<li><strong>Red</strong></li>
+		<li id="special"><strong>Red</strong></li>
 		<li>orange</li>
 		<li>yeloow</li>
 			<ul>
@@ -39,7 +57,9 @@
 				<li>sunflower</li>
 				<li>banana
 					<ol>
-						<li>frozen banana</li>
+						<li>
+							<a href="https://www.epicurious.com/recipes/food/views/frozen-chocolate-bananas-240064" target="_blank">frozen banana</a>
+						</li>
 						<li>non-frozen banana</li>
 					</ol>
 				</li>
@@ -53,6 +73,8 @@
 		<li>orange</li>
 		<li>yellow</li>
 	</ul>
+	</div>
+	
 
 
 	<!-- table -->
@@ -118,7 +140,7 @@
 
 	<!-- Inputs Demo -->
 	<form>
-		<p>Do you prefer cats or dogs</p>
+		<p class="highlight">Do you prefer cats or dogs</p>
 		<label for="dogs">Dogs:</label>
 		<input id="dogs" type="radio" name="petchoice" value="dogs">
 		<label for="cats">Cats:</label>
@@ -126,11 +148,11 @@
 
 		<input type="color">
 		<input type="radio">
-		<input type="checkbox">
+		<input type="checkbox" checked>
 		<input type="text">
 
 		<!-- Select tag -->
-		<p>What's your current mood?</p>
+		<p class="highlight">What's your current mood?</p>
 	
 		<select name="mood">
 			<option value="happy"=>:)</option>
